@@ -1,0 +1,59 @@
+img {
+    width: 48%;
+    
+}
+
+.theRules {
+   width: 60%;
+    margin: 0 auto;
+
+}
+
+h1 {
+    font-family: 'Fontdiner Swanky', cursive;
+    text-align: center;
+}
+
+.heading p, .theRules {
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+table {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.placeholderRandomNum {
+    background-color: lightpink;
+    width: 30%;
+    float: left;
+    margin: 10px;
+}
+
+.placeholderYourScore {
+    background-color: springgreen;
+    width: 30%;
+    float: left;
+    margin: 10px;
+}
+
+.whereYourScoreCountGoes {
+    background-color: skyblue;
+    width: 30%;
+    float: left;
+    margin: 10px;
+}
+
+.whereRandomNumberGoes, .whereYourScoreGoes {
+    font-family: 'Comfortaa', cursive;
+}
+
+
+
+
+
+

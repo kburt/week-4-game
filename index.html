@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+        <title>Crystals Collector</title>
+        <link rel="stylesheet" href="assets/css/style.css" media="screen"/>
+        <link href="https://fonts.googleapis.com/css?family=Comfortaa|Fontdiner+Swanky" rel="stylesheet">
+        <script type="text/javascript" src="assets/javascript/game.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class="heading">
+            <h1>Crystals Collector</h1>
+            
+            <div class="theRules">
+                <p>You will be given a random number at the start of the game.<br><br>
+                By clicking on one of the crystals below you will add a specific amount of points to your score.<br><br>
+                To win the game you must match your total score to the random number. You lose if your total score goes above the random number.<br><br>
+                The value of each crystal is hidden from you until you click on it.<br><br>
+                Each time the game starts over the crystals will have new values.
+                </p>
+            </div>
+            
+        </div>
+        
+        <div class="placeholderWinLossCounter">
+        <span class="winLoss"></span>
+            <br>
+        <span class="wooHoo"></span>
+        </div>
+        
+        <div class="placeholderCrystals">
+            <table>   
+                <th><img class="clickGreenImage" src="assets/images/green.jpg" alt="green crystal"></th>
+                <th><img class="clickPinkImage" src="assets/images/pink.jpg" alt="pink crystal"></th>
+                <th><img class="clickPurpleImage" src="assets/images/purple.jpg" alt="purple crystal"></th>    
+                <th><img class="clickQuartzImage" src="assets/images/quartz.jpg" alt="quartz crystal"></th> 
+            </table>
+     
+        </div>
+        
+                
+        <div class="placeholderRandomNum">
+        <span class="theRules">RANDOM NUMBER: </span>
+        <span class="whereRandomNumberGoes"></span>
+        </div>
+        
+        <div class="placeholderYourScore">
+        <span class="theRules">YOUR SCORE</span>
+        <span class="whereYourScoreGoes"></span>
+            <br>
+        </div>
+        
+        <div class="whereYourScoreCountGoes">
+            <span class="theRules">SCOREKEEPER</span>
+            <br>
+            <span class="theRules" id="wayToGo">WINS:</span>
+            <br>
+            <span class="theRules" id="wayToLose">LOSSES:</span>
+         
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </body>
+</html>
